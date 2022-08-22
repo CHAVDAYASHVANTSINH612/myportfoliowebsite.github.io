@@ -204,6 +204,12 @@ box-shadow: inset 0px 0px 12px rgb(223, 34, 17);
     border-radius: 6px;
 }
 
+.skill_section h1{
+
+text-align:center;
+
+
+}
 
 #skill_java{
 background-color: rgb(0, 0, 245);
