@@ -309,6 +309,19 @@ border-radius: 3px;
    
 }
 
+    #profile_photo {
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid black; */
+    box-shadow: 0px 0px 12px rgb(41, 93, 236);
+    border-radius: 100px;
+   // margin-top: 65px;
+  //  margin-left: 133px;
+   // margin-bottom: 23px;
+        
+        margin:auto;
+}
+
 
   }
 
