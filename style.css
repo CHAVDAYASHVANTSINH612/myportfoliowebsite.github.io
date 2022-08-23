@@ -265,12 +265,15 @@ border-radius: 3px;
 
 @media only screen and (max-width: 1225px) {
    
+     body{
+    width:100vw;
+   }
 
     nav{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 120vw;
+        width: 100vw;
     }
 
     nav ul{
@@ -283,7 +286,7 @@ border-radius: 3px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 120vw;
+        width: 100vw;
     }
 
 .container2{
