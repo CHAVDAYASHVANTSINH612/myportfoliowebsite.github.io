@@ -107,7 +107,7 @@ nav li a:hover {
     display: inline-block;
 
     margin: 12px 12px;
-    padding: 12px 12px;
+    padding: 12px 0px;
 
     border-radius: 12px;
 }
