@@ -183,7 +183,7 @@ flex-wrap: wrap;
     border:2px solid black;
     background-color: rgb(251, 251, 251);
     padding: 30px;
-    margin: 32px  80px;
+    margin: 32px  auto;
     border-radius: 7px;
 width: 200px;
 box-shadow: inset 0px 0px 12px rgb(223, 34, 17);
