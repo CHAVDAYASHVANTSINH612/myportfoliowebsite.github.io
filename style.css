@@ -273,7 +273,7 @@ border-radius: 3px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 125vw;
+        width: 100vw;
     }
 
     nav ul{
@@ -286,7 +286,7 @@ border-radius: 3px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 125vw;
+        width: 100vw;
     }
 
 .container2{
@@ -308,7 +308,7 @@ border-radius: 3px;
 
 .intro{
     width: 85%;
-    height: 3600px;
+    height: 360px;
    
 }
 
