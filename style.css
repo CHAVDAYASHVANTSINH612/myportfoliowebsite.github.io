@@ -103,7 +103,7 @@ nav li a:hover {
 .container2 {
 
 
-    width: 500px;
+    width: 100%;
     display: inline-block;
 
     margin: 12px 12px;
@@ -322,7 +322,9 @@ border-radius: 3px;
   //  margin-left: 133px;
    // margin-bottom: 23px;
         
-        margin:auto;
+       margin: 30px auto;  
+        
+     //   margin:auto;
 }
 
 
