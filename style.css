@@ -120,6 +120,11 @@ nav li a:hover {
     margin-bottom: 12px;
 }
 
+.sec{
+    display: flex;
+    flex-direction: column;
+}
+
 .about_section{
 
 height: 300px;
@@ -166,7 +171,8 @@ height: 300px;
 
 .skill_section h1{
 
-    margin-left: 100px;
+    /* change */
+    margin-left: 0px;
 
 }
 .box{
@@ -207,7 +213,10 @@ box-shadow: inset 0px 0px 12px rgb(223, 34, 17);
 
 .skill_section h1{
 
+    /* change */
 text-align:center;
+font-size: 34px;
+font-weight: bold;
 
 
 }
@@ -251,12 +260,10 @@ border-radius: 3px;
 
 
 /* @media only screen and (max-width:1225){
-
     #navigation {
        display:flex;
        flex-direction: column;
     }
-
     #about_section{
         background-color: pink;
     }
@@ -309,7 +316,10 @@ border-radius: 3px;
 
 .intro{
     width: 85%;
-    height: 360px;
+
+     /* change */
+    height: auto;   
+   
    
 }
 
@@ -319,13 +329,13 @@ border-radius: 3px;
     /* border: 3px solid black; */
     box-shadow: 0px 0px 12px rgb(41, 93, 236);
     border-radius: 100px;
-   // margin-top: 65px;
+   /* // margin-top: 65px;
   //  margin-left: 133px;
-   // margin-bottom: 23px;
+   // margin-bottom: 23px; */
         
        margin: 30px auto;  
         
-     //   margin:auto;
+     /* //   margin:auto; */
 }
     
     .skill_section{
@@ -337,3 +347,11 @@ border-radius: 3px;
 
   }
 
+  /* change */
+  @media only screen and (max-width: 600px) {
+
+    .skill_section {
+        margin-top: 168px;
+    }
+
+  }
