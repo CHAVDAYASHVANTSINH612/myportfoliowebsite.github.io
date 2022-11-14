@@ -103,11 +103,11 @@ nav li a:hover {
 .container2 {
 
 
-    width: 500px;
+    width: 100%;
     display: inline-block;
 
     margin: 12px 12px;
-    padding: 12px 12px;
+    padding: 12px 0px;
 
     border-radius: 12px;
 }
@@ -118,6 +118,11 @@ nav li a:hover {
     height: 40px;
     margin-left: 1156px;
     margin-bottom: 12px;
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
 }
 
 .about_section{
@@ -166,7 +171,8 @@ height: 300px;
 
 .skill_section h1{
 
-    margin-left: 100px;
+    /* change */
+    margin-left: 0px;
 
 }
 .box{
@@ -183,7 +189,7 @@ flex-wrap: wrap;
     border:2px solid black;
     background-color: rgb(251, 251, 251);
     padding: 30px;
-    margin: 32px  80px;
+    margin: 32px  auto;
     border-radius: 7px;
 width: 200px;
 box-shadow: inset 0px 0px 12px rgb(223, 34, 17);
@@ -197,6 +203,7 @@ box-shadow: inset 0px 0px 12px rgb(223, 34, 17);
 }
 
 
+
 .skill{
     width: 200px;
     height: 12px;
@@ -204,6 +211,15 @@ box-shadow: inset 0px 0px 12px rgb(223, 34, 17);
     border-radius: 6px;
 }
 
+.skill_section h1{
+
+    /* change */
+text-align:center;
+font-size: 34px;
+font-weight: bold;
+
+
+}
 
 #skill_java{
 background-color: rgb(0, 0, 245);
@@ -244,12 +260,10 @@ border-radius: 3px;
 
 
 /* @media only screen and (max-width:1225){
-
     #navigation {
        display:flex;
        flex-direction: column;
     }
-
     #about_section{
         background-color: pink;
     }
@@ -259,12 +273,15 @@ border-radius: 3px;
 
 @media only screen and (max-width: 1225px) {
    
+     body{
+    width:100%;
+   }
 
     nav{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100vw;
+        width: 100%;
     }
 
     nav ul{
@@ -277,7 +294,7 @@ border-radius: 3px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 100vw;
+        width: 100%;
     }
 
 .container2{
@@ -299,10 +316,42 @@ border-radius: 3px;
 
 .intro{
     width: 85%;
-    height: 330px;
+
+     /* change */
+    height: auto;   
+   
    
 }
+
+    #profile_photo {
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid black; */
+    box-shadow: 0px 0px 12px rgb(41, 93, 236);
+    border-radius: 100px;
+   /* // margin-top: 65px;
+  //  margin-left: 133px;
+   // margin-bottom: 23px; */
+        
+       margin: 30px auto;  
+        
+     /* //   margin:auto; */
+}
+    
+    .skill_section{
+
+        margin-top:12px;
+        
+    }
 
 
   }
 
+  /* change */
+  @media only screen and (max-width: 600px) {
+
+    .skill_section {
+        margin-top: 168px;
+    }
+
+  }
