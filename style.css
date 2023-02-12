@@ -270,7 +270,7 @@ border-radius: 3px;
     
 } */
 
-
+/*    ********************     */
 @media only screen and (max-width: 1225px) {
    
      body{
@@ -320,8 +320,13 @@ border-radius: 3px;
      /* change */
     height: auto;   
    
+    margin-bottom: auto;
+
+
    
 }
+
+
 
     #profile_photo {
     width: 200px;
@@ -340,7 +345,7 @@ border-radius: 3px;
     
     .skill_section{
 
-        margin-top:12px;
+        margin-top: auto;
         
     }
 
@@ -351,7 +356,14 @@ border-radius: 3px;
   @media only screen and (max-width: 600px) {
 
     .skill_section {
-        margin-top: 168px;
+        margin-top: 250px;
+    }
+    .intro{
+        margin-bottom: 150px;
+    }
+
+    p{
+        font-size: 16px;
     }
 
   }
